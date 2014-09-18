@@ -1,1 +1,1 @@
-var chil
+var child
