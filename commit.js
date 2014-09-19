@@ -1,1 +1,1 @@
-var child_process = requir
+var child_process = require
