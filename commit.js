@@ -1,3 +1,3 @@
 var child_process = require('child_process')
 var fs = require('fs');
-var max_slee
+var max_sleep
