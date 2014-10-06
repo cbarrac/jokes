@@ -7,4 +7,4 @@ var step = 10
 //Adjustable step
 //Status line
 //Add a rough time indicator
-//F
+//Fi
