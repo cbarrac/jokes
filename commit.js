@@ -7,4 +7,4 @@ var step = 10
 //Adjustable step
 //Status line
 //Add a rough time indicator
-//First cut at libfaketime 
+//First cut at libfaketime s
