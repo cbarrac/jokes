@@ -9,4 +9,4 @@ var step = 10
 //Add a rough time indicator
 //First cut at libfaketime support
 
-var commit_messages 
+var commit_messages =
