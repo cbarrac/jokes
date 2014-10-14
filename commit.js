@@ -10,4 +10,4 @@ var step = 10
 //First cut at libfaketime support
 
 var commit_messages = [
-  "Fixing an important issue wit
+  "Fixing an important issue with
