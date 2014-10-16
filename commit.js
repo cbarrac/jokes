@@ -11,4 +11,4 @@ var step = 10
 
 var commit_messages = [
   "Fixing an important issue with the universe.",
-  "Someone pois
+  "Someone poiso
