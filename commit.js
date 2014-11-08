@@ -19,4 +19,4 @@ var commit_messages = [
   "AAAAAAAAAAARGH!",
   "Fixed a typo",
   "Updated the readme",
-  "Fixing a typo added in the last readme up
+  "Fixing a typo added in the last readme upd
