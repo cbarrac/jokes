@@ -21,4 +21,4 @@ var commit_messages = [
   "Updated the readme",
   "Fixing a typo added in the last readme update",
   "GET A HAIRCUT!",
-  "Updated the rea
+  "Updated the read
