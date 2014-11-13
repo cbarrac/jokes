@@ -22,4 +22,4 @@ var commit_messages = [
   "Fixing a typo added in the last readme update",
   "GET A HAIRCUT!",
   "Updated the readme again",
-  "Found an issue with the lett
+  "Found an issue with the lette
