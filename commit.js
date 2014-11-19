@@ -23,4 +23,4 @@ var commit_messages = [
   "GET A HAIRCUT!",
   "Updated the readme again",
   "Found an issue with the letter 'a', so I fixed it.",
-  "Incompatible dimensions foun
+  "Incompatible dimensions found
