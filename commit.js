@@ -24,4 +24,4 @@ var commit_messages = [
   "Updated the readme again",
   "Found an issue with the letter 'a', so I fixed it.",
   "Incompatible dimensions found, Cthuhlu Error 666",
-  "Who 
+  "Who y
