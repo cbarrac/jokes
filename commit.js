@@ -26,4 +26,4 @@ var commit_messages = [
   "Incompatible dimensions found, Cthuhlu Error 666",
   "Who you calling a fool?",
   "How many more of these can I make?",
-  "Fixing an err
+  "Fixing an erro
