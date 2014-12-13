@@ -34,4 +34,4 @@ var commit_messages = [
   "Grammar fix",
   "Fixing punctuation",
   "Correcting style",
-  "Logic erro
+  "Logic error
