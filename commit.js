@@ -38,3 +38,4 @@ var commit_messages = [
   "Almost there",
   "Nearly got it",
   "Not quite working",
+ 
