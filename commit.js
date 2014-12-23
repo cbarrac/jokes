@@ -40,4 +40,4 @@ var commit_messages = [
   "Not quite working",
   "Ooops!",
   "Did I do that?",
-  "Commit all the requi
+  "Commit all the requir
