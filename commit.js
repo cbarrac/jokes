@@ -45,4 +45,4 @@ var commit_messages = [
   "Should work now",
   "Back out the last commit",
   "Reverting changes",
-  
+  "
