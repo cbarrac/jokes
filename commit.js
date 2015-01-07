@@ -47,4 +47,4 @@ var commit_messages = [
   "Reverting changes",
   "One more time...",
   "Re-commiting last",
-  "One more User Sto
+  "One more User Stor
