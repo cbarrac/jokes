@@ -48,4 +48,4 @@ var commit_messages = [
   "One more time...",
   "Re-commiting last",
   "One more User Story done",
-  "Can work my w
+  "Can work my wa
