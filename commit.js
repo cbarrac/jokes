@@ -51,4 +51,4 @@ var commit_messages = [
   "Can work my way through the Kanban",
   "Sprint complete",
   "Well that seemed pretty easy",
-  "What do you mean you can'
+  "What do you mean you can't
