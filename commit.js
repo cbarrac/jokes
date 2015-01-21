@@ -52,4 +52,4 @@ var commit_messages = [
   "Sprint complete",
   "Well that seemed pretty easy",
   "What do you mean you can't pack up the commit?",
-  "Merge in ma
+  "Merge in mas
