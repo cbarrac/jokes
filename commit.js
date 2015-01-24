@@ -56,3 +56,4 @@ var commit_messages = [
   "Fast-forwarding changes"
 ]
 
+i
