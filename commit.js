@@ -55,3 +55,4 @@ var commit_messages = [
   "Merge in master",
   "Fast-forwarding changes"
 ]
+
