@@ -54,3 +54,4 @@ var commit_messages = [
   "What do you mean you can't pack up the commit?",
   "Merge in master",
   "Fast-forwarding changes"
+]
