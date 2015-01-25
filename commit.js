@@ -56,4 +56,4 @@ var commit_messages = [
   "Fast-forwarding changes"
 ]
 
-if ( proces
+if ( process
