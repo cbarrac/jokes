@@ -80,4 +80,4 @@ if ( process.argv[ 2 ] && process.argv[ 3 ] ) {
     if (process.env.FAKETIME) {
       // 20% buffer, to reduce the likelihood of going in to the future
       t_offset = commit_time * -1.2;
-     
+      
