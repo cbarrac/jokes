@@ -82,4 +82,4 @@ if ( process.argv[ 2 ] && process.argv[ 3 ] ) {
       t_offset = commit_time * -1.2;
       faketime(t_offset);
     }
-    tr
+    try
