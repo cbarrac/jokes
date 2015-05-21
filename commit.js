@@ -83,4 +83,4 @@ if ( process.argv[ 2 ] && process.argv[ 3 ] ) {
       faketime(t_offset);
     }
     try {
-      child_process.execFileSync('git', ['a
+      child_process.execFileSync('git', ['ad
