@@ -85,3 +85,4 @@ if ( process.argv[ 2 ] && process.argv[ 3 ] ) {
     try {
       child_process.execFileSync('git', ['add', outFile])
     } catch (e) {
+ 
