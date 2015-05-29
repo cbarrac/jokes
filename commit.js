@@ -86,4 +86,4 @@ if ( process.argv[ 2 ] && process.argv[ 3 ] ) {
       child_process.execFileSync('git', ['add', outFile])
     } catch (e) {
       console.error("Couldn't add %s to git: %s", outFile, e)
-    
+    }
