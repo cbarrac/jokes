@@ -88,4 +88,4 @@ if ( process.argv[ 2 ] && process.argv[ 3 ] ) {
       console.error("Couldn't add %s to git: %s", outFile, e)
     }
     var counter = 0
-    process.stdout
+    process.stdout.
