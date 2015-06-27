@@ -97,4 +97,4 @@ if ( process.argv[ 2 ] && process.argv[ 3 ] ) {
       timeout = randomIntFromInterval(0, max_sleep) * 1000
     }
     setTimeout(commit, timeout, t_offset, outFD, outFile, data, counter, length);
-  }
+  })
