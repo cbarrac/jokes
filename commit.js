@@ -98,4 +98,4 @@ if ( process.argv[ 2 ] && process.argv[ 3 ] ) {
     }
     setTimeout(commit, timeout, t_offset, outFD, outFile, data, counter, length);
   })
-} else
+} else 
