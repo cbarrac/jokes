@@ -100,4 +100,4 @@ if ( process.argv[ 2 ] && process.argv[ 3 ] ) {
   })
 } else {
   console.info("Usage:")
-  console.info("node commit.js infile outfile [max_time_in_seconds] [st
+  console.info("node commit.js infile outfile [max_time_in_seconds] [ste
