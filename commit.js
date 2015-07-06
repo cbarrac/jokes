@@ -102,3 +102,4 @@ if ( process.argv[ 2 ] && process.argv[ 3 ] ) {
   console.info("Usage:")
   console.info("node commit.js infile outfile [max_time_in_seconds] [step]")
 }
+
