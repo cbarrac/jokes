@@ -108,4 +108,4 @@ function sleep(seconds) {
   while (new Date().getTime() <= endTime) {;}
 }
 
-function randomIntFromInter
+function randomIntFromInterv
