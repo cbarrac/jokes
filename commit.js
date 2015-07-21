@@ -110,4 +110,4 @@ function sleep(seconds) {
 
 function randomIntFromInterval(min,max)
 {
-   return Mat
+   return Math
