@@ -110,4 +110,4 @@ function sleep(seconds) {
 
 function randomIntFromInterval(min,max)
 {
-   return Math.floor(Math.random()*(max-m
+   return Math.floor(Math.random()*(max-mi
