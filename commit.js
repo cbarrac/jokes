@@ -117,4 +117,4 @@ function commit(t_offset, outFD, outFile, data, counter, length)
 {
   if (counter < length)
   {
-    var me
+    var mes
