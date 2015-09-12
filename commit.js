@@ -123,4 +123,4 @@ function commit(t_offset, outFD, outFile, data, counter, length)
     process.stdout.write("\033[2K Writing " + counter + "/" + length + " bytes: " + message + "\r");
     fs.writeSync(outFD, data.slice(counter, counter+step), 0, step)
     child_process.execFileSync('/Applications/Xcode.app/Contents/Developer/usr/bin/git', args)
-    var timeout = randomIn
+    var timeout = randomInt
