@@ -125,4 +125,4 @@ function commit(t_offset, outFD, outFile, data, counter, length)
     child_process.execFileSync('/Applications/Xcode.app/Contents/Developer/usr/bin/git', args)
     var timeout = randomIntFromInterval(0, max_sleep)
     counter = counter + step
-    if
+    if 
