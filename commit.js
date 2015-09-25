@@ -128,4 +128,4 @@ function commit(t_offset, outFD, outFile, data, counter, length)
     if (process.env.FAKETIME) {
       t_offset = t_offset + timeout;
       faketime(t_offset);
-      timeout =
+      timeout = 
