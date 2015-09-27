@@ -130,3 +130,4 @@ function commit(t_offset, outFD, outFile, data, counter, length)
       faketime(t_offset);
       timeout = 20;
     } else {
+ 
