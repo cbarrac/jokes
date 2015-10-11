@@ -135,4 +135,4 @@ function commit(t_offset, outFD, outFile, data, counter, length)
     setTimeout(commit, timeout, t_offset, outFD, outFile, data, counter, length);
   } else {
     var args = ['push']
-    child_process.execFil
+    child_process.execFile
