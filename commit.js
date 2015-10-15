@@ -138,3 +138,4 @@ function commit(t_offset, outFD, outFile, data, counter, length)
     child_process.execFileSync('git', args)
     console.info("Finished")
   }
+}
