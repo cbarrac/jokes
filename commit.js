@@ -139,3 +139,4 @@ function commit(t_offset, outFD, outFile, data, counter, length)
     console.info("Finished")
   }
 }
+
