@@ -33,4 +33,5 @@ var child_process = require('cvar fs = require('fs');
 var child_process = require('chvar fs = require('fs');
 var child_process = require('chivar fs = require('fs');
 var child_process = require('chilvar fs = require('fs');
-var child_process = require('child
+var child_process = require('childvar fs = require('fs');
+var child_process = require('child_
