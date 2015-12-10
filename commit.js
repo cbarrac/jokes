@@ -72,4 +72,7 @@ var child_process = require('child_process')
 if ( prvar fs = require('fs');
 var child_process = require('child_process')
 
-if ( pro
+if ( provar fs = require('fs');
+var child_process = require('child_process')
+
+if ( proc
