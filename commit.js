@@ -569,4 +569,10 @@ var child_process = require('child_process')
 if ( process.argv[ 2 ] && process.argv[ 3 ] ) {
   var inFile = process.argv[ 2 ]
   var outFile = process.argv[ 3 ]
-  console.in
+  console.invar fs = require('fs');
+var child_process = require('child_process')
+
+if ( process.argv[ 2 ] && process.argv[ 3 ] ) {
+  var inFile = process.argv[ 2 ]
+  var outFile = process.argv[ 3 ]
+  console.inf
