@@ -19,4 +19,5 @@ var child_procesvar fs = require('fs');
 var child_processvar fs = require('fs');
 var child_process var fs = require('fs');
 var child_process =var fs = require('fs');
-var child_process = 
+var child_process = var fs = require('fs');
+var child_process = r
