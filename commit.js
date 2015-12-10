@@ -171,4 +171,7 @@ var child_process = require('child_process')
 if ( process.argv[ 2 ] && process.argv[ var fs = require('fs');
 var child_process = require('child_process')
 
-if ( process.argv[ 2 ] && process.argv[ 3
+if ( process.argv[ 2 ] && process.argv[ 3var fs = require('fs');
+var child_process = require('child_process')
+
+if ( process.argv[ 2 ] && process.argv[ 3 
