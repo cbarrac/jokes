@@ -54,4 +54,7 @@ var child_process = require('child_process')
 ivar fs = require('fs');
 var child_process = require('child_process')
 
-if
+ifvar fs = require('fs');
+var child_process = require('child_process')
+
+if 
