@@ -24,4 +24,5 @@ var child_process = rvar fs = require('fs');
 var child_process = revar fs = require('fs');
 var child_process = reqvar fs = require('fs');
 var child_process = requvar fs = require('fs');
-var child_process = requi
+var child_process = requivar fs = require('fs');
+var child_process = requir
