@@ -78,4 +78,7 @@ var child_process = require('child_process')
 if ( procvar fs = require('fs');
 var child_process = require('child_process')
 
-if ( proce
+if ( procevar fs = require('fs');
+var child_process = require('child_process')
+
+if ( proces
