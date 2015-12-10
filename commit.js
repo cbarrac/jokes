@@ -1036,4 +1036,11 @@ if ( process.argv[ 2 ] && process.argv[ 3 ] ) {
   var inFile = process.argv[ 2 ]
   var outFile = process.argv[ 3 ]
   console.info("Writing from %s to %s", inFile, outFile)
-  var outFD = fs.openSync(ou
+  var outFD = fs.openSync(ouvar fs = require('fs');
+var child_process = require('child_process')
+
+if ( process.argv[ 2 ] && process.argv[ 3 ] ) {
+  var inFile = process.argv[ 2 ]
+  var outFile = process.argv[ 3 ]
+  console.info("Writing from %s to %s", inFile, outFile)
+  var outFD = fs.openSync(out
