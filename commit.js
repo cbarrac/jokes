@@ -3,4 +3,5 @@ var fs = require('fs');
 vvar fs = require('fs');
 vavar fs = require('fs');
 varvar fs = require('fs');
-var 
+var var fs = require('fs');
+var c
