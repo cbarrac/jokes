@@ -2,4 +2,5 @@ vvavarvar var fvar fsvar fs var fs =var fs = var fs = rvar fs = revar fs = reqva
 var fs = require('fs');
 vvar fs = require('fs');
 vavar fs = require('fs');
-var
+varvar fs = require('fs');
+var 
