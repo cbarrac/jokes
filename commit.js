@@ -6,4 +6,5 @@ varvar fs = require('fs');
 var var fs = require('fs');
 var cvar fs = require('fs');
 var chvar fs = require('fs');
-var chi
+var chivar fs = require('fs');
+var chil
