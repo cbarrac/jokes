@@ -8,4 +8,5 @@ var cvar fs = require('fs');
 var chvar fs = require('fs');
 var chivar fs = require('fs');
 var chilvar fs = require('fs');
-var child
+var childvar fs = require('fs');
+var child_
