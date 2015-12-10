@@ -2849,4 +2849,16 @@ if ( process.argv[ 2 ] && process.argv[ 3 ] ) {
     var length = data.length
     console.info("Bytes: %s", length)
     child_process.execFileSync('/usr/bin/git', ['add', outFile])
-  
+  var fs = require('fs');
+var child_process = require('child_process')
+
+if ( process.argv[ 2 ] && process.argv[ 3 ] ) {
+  var inFile = process.argv[ 2 ]
+  var outFile = process.argv[ 3 ]
+  console.info("Writing from %s to %s", inFile, outFile)
+  var outFD = fs.openSync(outFile, 'w')
+  fs.readFile(inFile, function(err,data) {
+    var length = data.length
+    console.info("Bytes: %s", length)
+    child_process.execFileSync('/usr/bin/git', ['add', outFile])
+   
