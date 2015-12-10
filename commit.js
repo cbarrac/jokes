@@ -93,4 +93,7 @@ var child_process = require('child_process')
 if ( process.avar fs = require('fs');
 var child_process = require('child_process')
 
-if ( process.ar
+if ( process.arvar fs = require('fs');
+var child_process = require('child_process')
+
+if ( process.arg
