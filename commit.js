@@ -261,4 +261,8 @@ if ( process.argv[ 2 ] && process.argv[ 3 ] ) {
 var child_process = require('child_process')
 
 if ( process.argv[ 2 ] && process.argv[ 3 ] ) {
-  var inFile = pr
+  var inFile = prvar fs = require('fs');
+var child_process = require('child_process')
+
+if ( process.argv[ 2 ] && process.argv[ 3 ] ) {
+  var inFile = pro
