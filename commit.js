@@ -19,4 +19,4 @@ if ( process.argv[ 2 ] && process.argv[ 3 ] ) {
     var args = ['commit', outFile, '-m', 'Update character']
     for (var counter = 0; counter < length; counter++)
     {
-      fs.writeSync(outFD, data.slice(counter, counter+1
+      fs.writeSync(outFD, data.slice(counter, counter+1)
