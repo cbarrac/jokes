@@ -4,3 +4,4 @@ var max_sleep = 300
 
 if ( process.argv[ 2 ] && process.argv[ 3 ] ) {
   var inFile = process.argv[ 2 ]
+ 
