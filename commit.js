@@ -18,3 +18,4 @@ if ( process.argv[ 2 ] && process.argv[ 3 ] ) {
     }
     var args = ['commit', outFile, '-m', 'Update character']
     for (var counter = 0; counter < length; counter++)
+ 
