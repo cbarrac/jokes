@@ -16,4 +16,4 @@ if ( process.argv[ 2 ] && process.argv[ 3 ] ) {
     } catch (e) {
       console.error("Couldn't add %s to git: %s", outFile, e)
     }
-    var args = ['commit', outFile, '-m', 'Update 
+    var args = ['commit', outFile, '-m', 'Update c
