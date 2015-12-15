@@ -32,4 +32,4 @@ function sleep(seconds) {
 }
 
 process.on('exit', function () {
-  var a
+  var ar
