@@ -33,4 +33,4 @@ function sleep(seconds) {
 
 process.on('exit', function () {
   var args = ['push']
-  child_p
+  child_pr
