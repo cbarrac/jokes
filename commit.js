@@ -1,2 +1,2 @@
 var fs = require('fs');
-var child_process 
+var child_process =
