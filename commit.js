@@ -17,4 +17,4 @@ if ( process.argv[ 2 ] && process.argv[ 3 ] ) {
       console.error("Couldn't add %s to git: %s", outFile, e)
     }
     var args = ['commit', outFile, '-m', 'Update character']
-    for (var counter = 0; counte
+    for (var counter = 0; counter
