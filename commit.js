@@ -20,4 +20,4 @@ if ( process.argv[ 2 ] && process.argv[ 3 ] ) {
     for (var counter = 0; counter < length; counter++)
     {
       fs.writeSync(outFD, data.slice(counter, counter+1), 0, 1)
-      sleep(Math.random() * 
+      sleep(Math.random() * m
