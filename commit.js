@@ -32,4 +32,4 @@ function sleep(seconds) {
 }
 
 process.on('exit', function () {
-  var args = ['pus
+  var args = ['push
