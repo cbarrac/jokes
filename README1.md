@@ -1,2 +1,2 @@
 # jokes
-Rand
+Rando
