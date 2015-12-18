@@ -24,7 +24,9 @@ var commit_messages = [
   "Re-updating the readme."
 ]
 
-var message = commit_messages[Math.random * (commit_messages.length - 1)]
+console.log(randomIntFromInterval(0, commit_messages.length - 1))
+
+
 
 if ( process.argv[ 2 ] && process.argv[ 3 ] ) {
   var inFile = process.argv[ 2 ]
@@ -40,6 +42,7 @@ if ( process.argv[ 2 ] && process.argv[ 3 ] ) {
     } catch (e) {
       console.error("Couldn't add %s to git: %s", outFile, e)
     }
+    var message = commit_messages[randomIntFromInterval(0, commit_messages.length - 1)]
     var args = ['commit', outFile, '-m', message]
     for (var counter = 0; counter < length; counter++)
     {
@@ -59,3 +62,9 @@ process.on('exit', function () {
   var args = ['push']
   child_process.execFileSync('/usr/bin/git', args)
 })
+
+
+function randomIntFromInterval(min,max)
+{
+   return Math.floor(Math.random()*(max-min+1)+min);
+}
