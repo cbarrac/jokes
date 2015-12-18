@@ -1,3 +1,3 @@
 # jokes
 Random code
-* commit.js - self comm
+* commit.js - self commi
