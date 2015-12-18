@@ -1,2 +1,2 @@
 # jokes
-Rando
+Random
