@@ -1,2 +1,2 @@
 # jokes
-Random co
+Random cod
