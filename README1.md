@@ -1,3 +1,3 @@
 # jokes
 Random code
-* commit.js - sel
+* commit.js - self
