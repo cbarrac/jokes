@@ -68,4 +68,4 @@ function sleep(seconds) {
 
 process.on('exit', function () {
   var args = ['push']
-  child_process.execFileSync('/usr/bin/git', 
+  child_process.execFileSync('/usr/bin/git', a
