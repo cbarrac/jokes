@@ -10,4 +10,4 @@ var commit_messages = [
   "Five bullets or six?",
   "Fixed memory parsing error #1337",
   "Cleaned out the intertubes",
-  "AAAAAA
+  "AAAAAAA
