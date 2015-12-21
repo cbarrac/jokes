@@ -28,3 +28,4 @@ var commit_messages = [
   "Grammar fix",
   "Fixing punctuation",
   "Correcting style",
+ 
