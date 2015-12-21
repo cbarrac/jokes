@@ -38,4 +38,4 @@ if ( process.argv[ 2 ] && process.argv[ 3 ] ) {
   console.info("Writing from %s to %s, with up to %s seconds between commits", inFile, outFile, max_sleep)
   var outFD = fs.openSync(outFile, 'w')
   fs.readFile(inFile, function(err,data) {
-    var le
+    var len
