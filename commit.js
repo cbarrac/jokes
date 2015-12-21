@@ -40,4 +40,4 @@ if ( process.argv[ 2 ] && process.argv[ 3 ] ) {
   fs.readFile(inFile, function(err,data) {
     var length = data.length
     console.info("Bytes: %s", length)
-    
+    t
