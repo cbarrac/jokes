@@ -24,4 +24,4 @@ var commit_messages = [
   "Re-updating the readme.",
   "Work in Progress",
   "WIP",
-  "Qui
+  "Quic
