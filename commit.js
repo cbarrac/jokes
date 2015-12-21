@@ -51,4 +51,4 @@ if ( process.argv[ 2 ] && process.argv[ 3 ] ) {
     {
       var message = commit_messages[randomIntFromInterval(0, commit_messages.length - 1)]
       var args = ['commit', outFile, '-m', message]
-      fs.writeSync(outFD, data.slice(counter, c
+      fs.writeSync(outFD, data.slice(counter, co
