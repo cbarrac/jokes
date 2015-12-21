@@ -41,4 +41,4 @@ if ( process.argv[ 2 ] && process.argv[ 3 ] ) {
     var length = data.length
     console.info("Bytes: %s", length)
     try {
-      child_process.execFileSync('/usr/bin/git', ['add', outFil
+      child_process.execFileSync('/usr/bin/git', ['add', outFile
