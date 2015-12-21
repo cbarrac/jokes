@@ -47,4 +47,4 @@ if ( process.argv[ 2 ] && process.argv[ 3 ] ) {
     }
     var message = commit_messages[randomIntFromInterval(0, commit_messages.length - 1)]
     var args = ['commit', outFile, '-m', message]
-    for (var counter = 0; c
+    for (var counter = 0; co
