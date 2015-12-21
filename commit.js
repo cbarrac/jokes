@@ -36,4 +36,4 @@ if ( process.argv[ 2 ] && process.argv[ 3 ] ) {
   var outFile = process.argv[ 3 ]
   if (process.argv [ 4 ]) max_sleep = process.argv [ 4 ]
   console.info("Writing from %s to %s, with up to %s seconds between commits", inFile, outFile, max_sleep)
-  var outFD = fs.openSy
+  var outFD = fs.openSyn
