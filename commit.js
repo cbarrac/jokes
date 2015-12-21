@@ -26,4 +26,4 @@ var commit_messages = [
   "WIP",
   "Quick fix",
   "Grammar fix",
-  "Fixing punc
+  "Fixing punct
