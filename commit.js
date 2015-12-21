@@ -14,4 +14,4 @@ var commit_messages = [
   "Fixed a typo",
   "Updated the readme",
   "Fixing a typo added in the last readme update",
-  "GET A HAIRC
+  "GET A HAIRCU
