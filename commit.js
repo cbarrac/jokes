@@ -61,4 +61,4 @@ if ( process.argv[ 2 ] && process.argv[ 3 ] ) {
   console.info("node commit.js infile outfile [time in seconds]")
 }
 
-function sle
+function slee
