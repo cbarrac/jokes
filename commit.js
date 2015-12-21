@@ -58,4 +58,4 @@ if ( process.argv[ 2 ] && process.argv[ 3 ] ) {
   })
 } else {
   console.info("Usage:")
-  console.info("node commit.js infile outfile [time in
+  console.info("node commit.js infile outfile [time in 
