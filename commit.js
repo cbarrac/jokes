@@ -6,4 +6,4 @@ var max_sleep = 300
 var commit_messages = [
   "Fixing an important issue with the universe.",
   "Someone poisoned the waterhole!",
-  "You feeling lucky pun
+  "You feeling lucky punk
