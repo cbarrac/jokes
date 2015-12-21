@@ -50,4 +50,4 @@ if ( process.argv[ 2 ] && process.argv[ 3 ] ) {
     for (var counter = 0; counter < length; counter++)
     {
       var message = commit_messages[randomIntFromInterval(0, commit_messages.length - 1)]
-      var 
+      var a
