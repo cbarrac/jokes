@@ -31,4 +31,4 @@ var commit_messages = [
   "Logic error"
 ]
 
-if ( process.argv[ 2 ] && p
+if ( process.argv[ 2 ] && pr
