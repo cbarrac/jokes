@@ -71,4 +71,4 @@ process.on('exit', function () {
   child_process.execFileSync('/usr/bin/git', args)
 })
 
-function randomIntFromInterval(min,
+function randomIntFromInterval(min,m
