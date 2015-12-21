@@ -1,1 +1,1 @@
-var fs = requir
+var fs = require
