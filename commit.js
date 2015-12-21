@@ -66,4 +66,4 @@ function sleep(seconds) {
   while (new Date().getTime() <= endTime) {;}
 }
 
-process.on('exit', fu
+process.on('exit', fun
