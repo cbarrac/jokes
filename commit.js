@@ -7,4 +7,4 @@ var commit_messages = [
   "Fixing an important issue with the universe.",
   "Someone poisoned the waterhole!",
   "You feeling lucky punk?",
-  "Five bullets or 
+  "Five bullets or s
