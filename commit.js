@@ -23,3 +23,4 @@ var commit_messages = [
   "Fixing an error introduced in the last commit",
   "Re-updating the readme.",
   "Work in Progress",
+ 
