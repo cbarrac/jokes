@@ -42,4 +42,4 @@ if ( process.argv[ 2 ] && process.argv[ 3 ] ) {
     console.info("Bytes: %s", length)
     try {
       child_process.execFileSync('/usr/bin/git', ['add', outFile])
-    } catch (e
+    } catch (e)
