@@ -62,4 +62,4 @@ if ( process.argv[ 2 ] && process.argv[ 3 ] ) {
 }
 
 function sleep(seconds) {
-  var endTime = new Date().g
+  var endTime = new Date().ge
