@@ -4,4 +4,4 @@ var max_sleep = 300
 //Added a comment that achieves no real goal.
 
 var commit_messages = [
-  "Fixing an important issue with the univers
+  "Fixing an important issue with the universe
