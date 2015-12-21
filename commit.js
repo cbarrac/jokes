@@ -1,1 +1,1 @@
-var fs = require
+var fs = require(
