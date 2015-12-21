@@ -31,4 +31,4 @@ var commit_messages = [
   "Logic error"
 ]
 
-if ( proce
+if ( proces
