@@ -56,4 +56,4 @@ if ( process.argv[ 2 ] && process.argv[ 3 ] ) {
       child_process.execFileSync('/usr/bin/git', args)
     }
   })
-}
+} 
