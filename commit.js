@@ -73,4 +73,4 @@ process.on('exit', function () {
 
 function randomIntFromInterval(min,max)
 {
-   return Mat
+   return Math
