@@ -49,4 +49,4 @@ if ( process.argv[ 2 ] && process.argv[ 3 ] ) {
     var args = ['commit', outFile, '-m', message]
     for (var counter = 0; counter < length; counter++)
     {
-      var message = commit
+      var message = commit_
