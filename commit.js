@@ -31,3 +31,4 @@ var commit_messages = [
   "Logic error"
 ]
 
+i
