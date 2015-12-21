@@ -30,3 +30,4 @@ var commit_messages = [
   "Correcting style",
   "Logic error"
 ]
+
