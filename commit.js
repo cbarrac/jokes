@@ -73,4 +73,4 @@ process.on('exit', function () {
 
 function randomIntFromInterval(min,max)
 {
-   return Math.floo
+   return Math.floor
