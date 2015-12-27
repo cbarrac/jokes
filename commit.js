@@ -6,4 +6,5 @@ var step = 10
 //Non-blocking loop
 //Adjustable step
 //Status line
-//Add a rough time 
+//Add a rough time indicator
+//First cu
