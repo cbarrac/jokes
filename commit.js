@@ -18,4 +18,5 @@ var commit_messages = [
   "Cleaned out the intertubes",
   "AAAAAAAAAAARGH!",
   "Fixed a typo",
-  "Updated the read
+  "Updated the readme",
+  "Fixing a typ
