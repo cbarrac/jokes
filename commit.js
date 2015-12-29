@@ -30,4 +30,5 @@ var commit_messages = [
   "Re-updating the readme.",
   "Work in Progress",
   "WIP",
-  "Q
+  "Quick fix",
+  "Gramma
