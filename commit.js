@@ -36,4 +36,5 @@ var commit_messages = [
   "Correcting style",
   "Logic error",
   "Almost there",
-  "Nearly g
+  "Nearly got it",
+  "Not quite
