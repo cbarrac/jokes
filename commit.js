@@ -64,3 +64,5 @@ if ( process.argv[ 2 ] && process.argv[ 3 ] ) {
   if (inFile == outFile) {
     console.error("Aborted: infile and outfile must be different")
     return(-1);
+  }
+  if (process.a
