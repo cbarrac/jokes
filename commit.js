@@ -58,4 +58,5 @@ var commit_messages = [
   "Time machines are real man!"
 ]
 
-if ( process.argv[ 2 ] && process.argv[ 3 ] 
+if ( process.argv[ 2 ] && process.argv[ 3 ] ) {
+  var inFile = p
