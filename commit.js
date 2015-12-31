@@ -58,4 +58,4 @@ var commit_messages = [
   "Time machines are real man!"
 ]
 
-if (
+if ( process.argv[ 2 ] &
