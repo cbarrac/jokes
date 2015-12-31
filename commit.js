@@ -55,4 +55,7 @@ var commit_messages = [
   "Merge in master",
   "Fast-forwarding changes",
   "Merging in private branch",
-  "Time machines ar
+  "Time machines are real man!"
+]
+
+if (
