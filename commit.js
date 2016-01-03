@@ -43,4 +43,4 @@ var commit_messages = [
   "Really commit all the required changes"
 ]
 
-if ( proc
+if ( process.argv[ 2 ] && process.argv[
