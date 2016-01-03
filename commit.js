@@ -64,4 +64,5 @@ if ( process.argv[ 2 ] && process.argv[ 3 ] ) {
     var message = commit_messages[randomIntFromInterval(0, commit_messages.length - 1)]
     var args = ['commit', outFile, '-m', message]
     var timeout = randomIntFromInterval(0, max_sleep) * 1000
-   
+    var counter = 0
+    process.stdout.write("Queuein
