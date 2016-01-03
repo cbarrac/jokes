@@ -99,4 +99,4 @@ function commit(outFD, outFile, data, counter, length)
     var args = ['commit', outFile, '-m', message]
     if (counter + step >= length) step = length - counter
     process.stdout.write("\033[2K Writing " + counter + "/" + length + " bytes: " + message + "\r");
-    fs.wr
+    fs.writeSync(outFD, data.
