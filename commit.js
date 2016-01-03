@@ -95,4 +95,4 @@ function commit(outFD, outFile, data, counter, length)
 {
   if (counter < length)
   {
-    var message = commit_m
+    var message = commit_messages[randomIntFro
