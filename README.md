@@ -5,4 +5,5 @@ Random code
 Command line  
 
 ```
-node commit.js infile outfile [time in seconds] [step size in byt
+node commit.js infile outfile [time in seconds] [step size in bytes]
+`
