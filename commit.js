@@ -43,4 +43,5 @@ var commit_messages = [
   "Really commit all the required changes"
 ]
 
-if ( process.argv[ 2 ] && process.argv[
+if ( process.argv[ 2 ] && process.argv[ 3 ] ) {
+  var inFile = proces
