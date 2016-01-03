@@ -97,4 +97,4 @@ function commit(outFD, outFile, data, counter, length)
   {
     var message = commit_messages[randomIntFromInterval(0, commit_messages.length - 1)]
     var args = ['commit', outFile, '-m', message]
-    if (counter + step >= le
+    if (counter + step >= length) step = length 
