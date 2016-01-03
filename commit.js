@@ -90,4 +90,6 @@ function randomIntFromInterval(min,max)
 
 function commit(outFD, outFile, data, counter, length)
 {
-  if (co
+  if (counter < length)
+  {
+    var me
