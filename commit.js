@@ -39,4 +39,7 @@ var commit_messages = [
   "Ooops!",
   "Did I do that?",
   "Commit all the required changes",
-  "Really commit all the required 
+  "Really commit all the required changes"
+]
+
+if ( process.argv[ 2 ] && process.argv
