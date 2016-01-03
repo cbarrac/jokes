@@ -54,4 +54,5 @@ if ( process.argv[ 2 ] && process.argv[ 3 ] ) {
     return(-1);
   }
   if (process.argv [ 4 ]) max_sleep = process.argv [ 4 ]
-  if (process.argv [ 5 ]) step = parseInt(process
+  if (process.argv [ 5 ]) step = parseInt(process.argv [ 5 ])
+  conso
