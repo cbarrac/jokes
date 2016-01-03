@@ -40,4 +40,7 @@ var commit_messages = [
   "Ooops!",
   "Did I do that?",
   "Commit all the required changes",
-  "Really commit all the 
+  "Really commit all the required changes"
+]
+
+if ( proc
