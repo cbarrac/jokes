@@ -74,4 +74,5 @@ if ( process.argv[ 2 ] && process.argv[ 3 ] ) {
 }
 
 function sleep(seconds) {
-  var endTime = new Date().getTime() + (seconds * 100
+  var endTime = new Date().getTime() + (seconds * 1000);
+  while (new Date().getTime() <= endTime) {;}
