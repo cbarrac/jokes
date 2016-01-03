@@ -106,3 +106,4 @@ function commit(outFD, outFile, data, counter, length)
     child_process.execFileSync('/usr/bin/git', args)
     console.info("Finished")
   }
+}
