@@ -83,3 +83,6 @@ if ( process.argv[ 2 ] && process.argv[ 3 ] ) {
       // 10% buffer, to reduce the likelihood of going in to the future
       t_offset = commit_time * -1.1;
       faketime(t_offset);
+    }
+    try {
+    
