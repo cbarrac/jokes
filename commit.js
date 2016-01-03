@@ -68,4 +68,5 @@ if ( process.argv[ 2 ] && process.argv[ 3 ] ) {
     console.info("Input file is %s Bytes, this will generate %s commits and take approximately %s hours %s minutes %s seconds", length, commit_count, commit_time_hour, commit_time_min, commit_time_sec)
     try {
       child_process.execFileSync('/usr/bin/git', ['add', outFile])
-  
+    } catch (e) {
+    
