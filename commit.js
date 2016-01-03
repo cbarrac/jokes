@@ -14,4 +14,5 @@ var commit_messages = [
   "You feeling lucky punk?",
   "Five bullets or six?",
   "Fixed memory parsing error #1337",
-  "Cleaned out the intert
+  "Cleaned out the intertubes",
+  "AAAAAAAAAA
