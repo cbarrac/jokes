@@ -5,4 +5,4 @@ Random code
 Command line  
 
 ```
-node commi
+node commit.js 
