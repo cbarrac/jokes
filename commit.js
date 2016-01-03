@@ -43,3 +43,4 @@ var commit_messages = [
   "Really commit all the required changes",
   "Should work now",
   "Back out the last commit",
+  "Reverting changes
