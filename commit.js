@@ -22,4 +22,4 @@ var commit_messages = [
   "GET A HAIRCUT!",
   "Updated the readme again",
   "Found an issue with the letter 'a', so I fixed it.",
-  "Incompatible dimensions found,
+  "Incompatible dimensions found, Cthuhlu Error 666",
