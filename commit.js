@@ -104,4 +104,5 @@ function commit(outFD, outFile, data, counter, length)
     var timeout = randomIntFromInterval(0, max_sleep) * 1000
     counter = counter + step
     setTimeout(commit, timeout, outFD, outFile, data, counter, length);
-  } el
+  } else {
+    var args = 
