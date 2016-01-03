@@ -60,4 +60,4 @@ if ( process.argv[ 2 ] && process.argv[ 3 ] ) {
     var commit_time = commit_count * max_sleep / 2
     var commit_time_hour = Math.floor(commit_time / 3600)
     var commit_time_rem = commit_time - (commit_time_hour * 3600)
-    var com
+    var commit_time_min = Math.floor(comm
