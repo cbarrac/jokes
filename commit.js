@@ -102,4 +102,5 @@ function commit(outFD, outFile, data, counter, length)
     counter = counter + step
     setTimeout(commit, timeout, outFD, outFile, data, counter, length);
   } else {
-    var args = ['pu
+    var args = ['push']
+    child_process.execFil
