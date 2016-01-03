@@ -57,4 +57,4 @@ if ( process.argv[ 2 ] && process.argv[ 3 ] ) {
   fs.readFile(inFile, function(err,data) {
     var length = data.length
     var commit_count = Math.ceil(length / step)
-    va
+    var commit_time = commit_count *
