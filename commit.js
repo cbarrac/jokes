@@ -95,4 +95,4 @@ function commit(outFD, outFile, data, counter, length)
 {
   if (counter < length)
   {
-    va
+    var message = commit_m
