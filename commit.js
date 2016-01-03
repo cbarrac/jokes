@@ -40,4 +40,5 @@ var commit_messages = [
   "Ooops!",
   "Did I do that?",
   "Commit all the required changes",
-  "Really commit all the required c
+  "Really commit all the required changes",
+  "Should w
