@@ -1,2 +1,2 @@
 # jokes
-Random 
+Random code
