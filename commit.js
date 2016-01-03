@@ -38,4 +38,5 @@ var commit_messages = [
   "Not quite working",
   "Ooops!",
   "Did I do that?",
-  "Commit all the req
+  "Commit all the required changes",
+  "Really commit all the required 
