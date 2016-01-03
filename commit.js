@@ -28,12 +28,23 @@ var commit_messages = [
   "Grammar fix",
   "Fixing punctuation",
   "Correcting style",
-  "Logic error"
+  "Logic error",
+  "Almost there",
+  "Nearly got it",
+  "Not quite working",
+  "Ooops!",
+  "Did I do that?",
+  "Commit all the required changes",
+  "Really commit all the required changes"
 ]
 
 if ( process.argv[ 2 ] && process.argv[ 3 ] ) {
   var inFile = process.argv[ 2 ]
   var outFile = process.argv[ 3 ]
+  if (inFile == outFile) {
+    console.error("Aborted: infile and outfile must be different")
+    return(-1);
+  }
   if (process.argv [ 4 ]) max_sleep = process.argv [ 4 ]
   console.info("Writing from %s to %s, with up to %s seconds between commits", inFile, outFile, max_sleep)
   var outFD = fs.openSync(outFile, 'w')
@@ -58,7 +69,7 @@ if ( process.argv[ 2 ] && process.argv[ 3 ] ) {
   })
 } else {
   console.info("Usage:")
-  console.info("node commit.js infile outfile [time in seconds]")
+  console.info("node commit.js infile outfile [max_time_in_seconds]")
 }
 
 function sleep(seconds) {
