@@ -8,4 +8,5 @@ var step = 10
 //Status line
 
 var commit_messages = [
-  "Fixing an important i
+  "Fixing an important issue with the universe.",
+  "Someone poisoned the 
