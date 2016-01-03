@@ -50,4 +50,5 @@ if ( process.argv[ 2 ] && process.argv[ 3 ] ) {
   var inFile = process.argv[ 2 ]
   var outFile = process.argv[ 3 ]
   if (inFile == outFile) {
-    console.error("Aborted: infile and outfile must b
+    console.error("Aborted: infile and outfile must be different")
+    re
