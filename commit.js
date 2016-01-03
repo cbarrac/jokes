@@ -62,4 +62,4 @@ if ( process.argv[ 2 ] && process.argv[ 3 ] ) {
     var commit_count = Math.ceil(length / step)
     var commit_time = commit_count * max_sleep / 2
     var commit_time_hour = Math.floor(commit_time / 3600)
-    var commit_time_rem = commit_
+    var commit_time_rem = commit_time - (commit_time_
