@@ -5,4 +5,4 @@ Random code
 Command line  
 
 ```
-node commit.js infil
+node commit.js infile out
