@@ -101,4 +101,5 @@ function commit(outFD, outFile, data, counter, length)
     process.stdout.write("\033[2K Writing " + counter + "/" + length + " bytes: " + message + "\r");
     fs.writeSync(outFD, data.slice(counter, counter+step), 0, step)
     child_process.execFileSync('/usr/bin/git', args)
-    var timeout = randomIntFromInterval(0, max_s
+    var timeout = randomIntFromInterval(0, max_sleep) * 1000
+    cou
