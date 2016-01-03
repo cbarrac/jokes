@@ -58,14 +58,9 @@ if ( process.argv[ 2 ] && process.argv[ 3 ] ) {
     }
     var message = commit_messages[randomIntFromInterval(0, commit_messages.length - 1)]
     var args = ['commit', outFile, '-m', message]
-    for (var counter = 0; counter < length; counter++)
-    {
-      var message = commit_messages[randomIntFromInterval(0, commit_messages.length - 1)]
-      var args = ['commit', outFile, '-m', message]
-      fs.writeSync(outFD, data.slice(counter, counter+1), 0, 1)
-      sleep(Math.random() * max_sleep)
-      child_process.execFileSync('/usr/bin/git', args)
-    }
+    var timeout = randomIntFromInterval(0, max_sleep) * 1000
+    var counter = 0
+    setTimeout(commit, timeout, outFD, outFile, data, counter, length);
   })
 } else {
   console.info("Usage:")
@@ -77,12 +72,23 @@ function sleep(seconds) {
   while (new Date().getTime() <= endTime) {;}
 }
 
-process.on('exit', function () {
-  var args = ['push']
-  child_process.execFileSync('/usr/bin/git', args)
-})
-
 function randomIntFromInterval(min,max)
 {
    return Math.floor(Math.random()*(max-min+1)+min);
+}
+
+function commit(outFD, outFile, data, counter, length)
+{
+  if (counter < length)
+  {
+    var message = commit_messages[randomIntFromInterval(0, commit_messages.length - 1)]
+    var args = ['commit', outFile, '-m', message]
+    fs.writeSync(outFD, data.slice(counter, counter+1), 0, 1)
+    child_process.execFileSync('/usr/bin/git', args)
+    var timeout = randomIntFromInterval(0, max_sleep) * 1000
+    setTimeout(commit, timeout, outFD, outFile, data, ++counter, length);
+  } else {
+    var args = ['push']
+    child_process.execFileSync('/usr/bin/git', args)
+  }
 }
