@@ -11,4 +11,5 @@ var commit_messages = [
   "Fixing an important issue with the universe.",
   "Someone poisoned the waterhole!",
   "You feeling lucky punk?",
-  "Five 
+  "Five bullets or six?",
+  "Fixed memory parsing error #1
