@@ -9,4 +9,4 @@ var step = 10
 //Add a rough time indicator
 
 var commit_messages = [
-  "Fixing an im
+  "Fixing an important issue with the univers
