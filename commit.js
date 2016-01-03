@@ -61,4 +61,5 @@ if ( process.argv[ 2 ] && process.argv[ 3 ] ) {
     } catch (e) {
       console.error("Couldn't add %s to git: %s", outFile, e)
     }
-    var message = commit_messages[randomIntFromInter
+    var message = commit_messages[randomIntFromInterval(0, commit_messages.length - 1)]
+    var args =
