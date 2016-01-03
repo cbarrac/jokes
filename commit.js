@@ -4,4 +4,6 @@ var max_sleep = 300
 var step = 10
 //Added a comment that achieves no real goal.
 //Non-blocking loop
-//Adjustabl
+//Adjustable step
+//Status line
+//Add a r
