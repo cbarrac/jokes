@@ -88,4 +88,4 @@ function sleep(seconds) {
 
 function randomIntFromInterval(min,max)
 {
-   retu
+   return Math.floor(Math.r
