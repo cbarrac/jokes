@@ -81,4 +81,5 @@ if ( process.argv[ 2 ] && process.argv[ 3 ] ) {
     var t_offset = 0
     if (process.env.FAKETIME) {
       // 10% buffer, to reduce the likelihood of going in to the future
-      t_offset = commit
+      t_offset = commit_time * -1.1;
+      
