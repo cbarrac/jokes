@@ -73,4 +73,5 @@ if ( process.argv[ 2 ] && process.argv[ 3 ] ) {
     }
     var timeout = randomIntFromInterval(0, max_sleep) * 1000
     var counter = 0
-    process.stdout.write("Queueing up the first commit.
+    process.stdout.write("Queueing up the first commit...\r");
+    setTimeo
