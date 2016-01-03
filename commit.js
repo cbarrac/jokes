@@ -106,4 +106,4 @@ function commit(outFD, outFile, data, counter, length)
     setTimeout(commit, timeout, outFD, outFile, data, counter, length);
   } else {
     var args = ['push']
-    child_p
+    child_process.execFileSync(
