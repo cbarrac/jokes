@@ -5,4 +5,4 @@ Random code
 Command line  
 
 ```
-node commit.js infile outfile 
+node commit.js infile outfile [time
