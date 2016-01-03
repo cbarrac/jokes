@@ -93,4 +93,6 @@ function randomIntFromInterval(min,max)
 
 function commit(outFD, outFile, data, counter, length)
 {
-  if (counter 
+  if (counter < length)
+  {
+    va
