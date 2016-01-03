@@ -71,4 +71,4 @@ if ( process.argv[ 2 ] && process.argv[ 3 ] ) {
     } catch (e) {
       console.error("Couldn't add %s to git: %s", outFile, e)
     }
-    var timeout = randomIntFromInter
+    var timeout = randomIntFromInterval(0, max_sleep) * 
