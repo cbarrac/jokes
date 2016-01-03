@@ -85,4 +85,4 @@ if ( process.argv[ 2 ] && process.argv[ 3 ] ) {
       faketime(t_offset);
     }
     try {
-    
+      child_process.exec
