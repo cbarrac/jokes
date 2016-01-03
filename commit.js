@@ -74,4 +74,5 @@ if ( process.argv[ 2 ] && process.argv[ 3 ] ) {
     setTimeout(commit, timeout, outFD, outFile, data, counter, length);
   })
 } else {
-  console.
+  console.info("Usage:")
+  console.info(
