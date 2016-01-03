@@ -23,4 +23,5 @@ var commit_messages = [
   "Found an issue with the letter 'a', so I fixed it.",
   "Incompatible dimensions found, Cthuhlu Error 666",
   "Who you calling a fool?",
-  "How ma
+  "How many more of these can I make?",
+  "Fixing an error 
