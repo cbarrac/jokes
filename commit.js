@@ -46,4 +46,5 @@ var commit_messages = [
   "Reverting changes"
 ]
 
-if ( process.argv[ 2 ] && process.a
+if ( process.argv[ 2 ] && process.argv[ 3 ] ) {
+  var i
