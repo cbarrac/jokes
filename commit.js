@@ -94,4 +94,5 @@ if ( process.argv[ 2 ] && process.argv[ 3 ] ) {
     var timeout;
     if (process.env.FAKETIME) {
       faketime(t_offset);
+      timeout = 20;
   
