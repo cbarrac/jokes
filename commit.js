@@ -93,4 +93,5 @@ if ( process.argv[ 2 ] && process.argv[ 3 ] ) {
     process.stdout.write("Queueing up the first commit...\r");
     var timeout;
     if (process.env.FAKETIME) {
-      fa
+      faketime(t_offset);
+  
