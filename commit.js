@@ -96,4 +96,4 @@ if ( process.argv[ 2 ] && process.argv[ 3 ] ) {
       faketime(t_offset);
       timeout = 20;
     } else {
-      timeout = randomIntFrom
+      timeout = randomIntFromInterval(0, max_slee
