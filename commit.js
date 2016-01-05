@@ -48,4 +48,6 @@ var commit_messages = [
   "Re-commiting last"
 ]
 
-if ( process.argv[ 2 ] && process.argv[ 
+if ( process.argv[ 2 ] && process.argv[ 3 ] ) {
+  var inFile = process.argv[ 2 ]
+  var out
