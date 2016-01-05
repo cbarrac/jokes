@@ -30,4 +30,7 @@ var commit_messages = [
   "Work in Progress",
   "WIP",
   "Quick fix",
-  "Grammar fix
+  "Grammar fix",
+  "Fixing punctuation",
+  "Correcting style",
+ 
