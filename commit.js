@@ -102,4 +102,4 @@ if ( process.argv[ 2 ] && process.argv[ 3 ] ) {
   })
 } else {
   console.info("Usage:")
-  console.info("node co
+  console.info("node commit.js infile outfi
