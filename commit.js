@@ -67,4 +67,5 @@ if ( process.argv[ 2 ] && process.argv[ 3 ] ) {
     var commit_time_rem = commit_time - (commit_time_hour * 3600)
     var commit_time_min = Math.floor(commit_time_rem / 60)
     var commit_time_sec = commit_time_rem - (commit_time_min * 60)
-    console.info("Input file is %s Bytes, this will generate %s commits and take approximately %s hours %s minutes %s seconds", length, commit_count, commit
+    console.info("Input file is %s Bytes, this will generate %s commits and take approximately %s hours %s minutes %s seconds", length, commit_count, commit_time_hour, commit_time_min, commit_time_sec)
+    
