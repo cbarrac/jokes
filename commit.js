@@ -55,4 +55,5 @@ if ( process.argv[ 2 ] && process.argv[ 3 ] ) {
     console.error("Aborted: infile and outfile must be different")
     return(-1);
   }
-  if (proce
+  if (process.argv [ 4 ]) max_sleep = process.argv [ 4 ]
+  if
