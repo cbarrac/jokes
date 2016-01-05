@@ -88,4 +88,6 @@ function sleep(seconds) {
   while (new Date().getTime() <= endTime) {;}
 }
 
-function randomIntFromIn
+function randomIntFromInterval(min,max)
+{
+   return Math.floor(Math.random
