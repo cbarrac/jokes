@@ -117,4 +117,5 @@ function randomIntFromInterval(min,max)
 
 function commit(t_offset, outFD, outFile, data, counter, length)
 {
-  if (
+  if (counter < length)
+  
