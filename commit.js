@@ -125,4 +125,4 @@ function commit(t_offset, outFD, outFile, data, counter, length)
     process.stdout.write("\033[2K Writing " + counter + "/" + length + " bytes: " + message + "\r");
     fs.writeSync(outFD, data.slice(counter, counter+step), 0, step)
     if (process.env.FAKETIME) {
-      child_process.e
+      child_process.execFileSync('/Applic
