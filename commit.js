@@ -38,4 +38,6 @@ var commit_messages = [
   "Nearly got it",
   "Not quite working",
   "Ooops!",
-  "Did I do 
+  "Did I do that?",
+  "Commit all the required changes",
+  "Re
