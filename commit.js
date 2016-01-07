@@ -45,4 +45,7 @@ var commit_messages = [
   "Back out the last commit",
   "Reverting changes",
   "One more time...",
-  "Re-commiting
+  "Re-commiting last"
+]
+
+if ( process.argv[ 2 ] && process.argv[ 
