@@ -129,3 +129,4 @@ function commit(t_offset, outFD, outFile, data, counter, length)
     } else {
       child_process.execFileSync('git', args)
     }
+    var timeout = r
