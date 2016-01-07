@@ -127,4 +127,5 @@ function commit(t_offset, outFD, outFile, data, counter, length)
     if (process.env.FAKETIME) {
       child_process.execFileSync('/Applications/Xcode.app/Contents/Developer/usr/bin/git', args)
     } else {
-      child_process.execFileSyn
+      child_process.execFileSync('git', args)
+    }
