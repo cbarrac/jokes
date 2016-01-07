@@ -6,3 +6,6 @@ var step = 10
 //Non-blocking loop
 //Adjustable step
 //Status line
+//Add a rough time indicator
+
+var commit_messages
