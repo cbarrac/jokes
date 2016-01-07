@@ -83,4 +83,5 @@ if ( process.argv[ 2 ] && process.argv[ 3 ] ) {
   console.info("node commit.js infile outfile [max_time_in_seconds] [step]")
 }
 
-functi
+function sleep(seconds) {
+  var endTime = new Date().get
