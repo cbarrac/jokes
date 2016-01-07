@@ -8,4 +8,5 @@ var step = 10
 //Status line
 //Add a rough time indicator
 
-var commit_messages
+var commit_messages = [
+  "Fixing an important issue with the univers
