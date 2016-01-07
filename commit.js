@@ -93,4 +93,6 @@ function randomIntFromInterval(min,max)
    return Math.floor(Math.random()*(max-min+1)+min);
 }
 
-function commit(outFD, out
+function commit(outFD, outFile, data, counter, length)
+{
+  if (counter < len
