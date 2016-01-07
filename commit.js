@@ -57,4 +57,5 @@ if ( process.argv[ 2 ] && process.argv[ 3 ] ) {
   }
   if (process.argv [ 4 ]) max_sleep = process.argv [ 4 ]
   if (process.argv [ 5 ]) step = parseInt(process.argv [ 5 ])
-  console.info("Writing from %s to %s, with up to %s seconds between commits of %s bytes", i
+  console.info("Writing from %s to %s, with up to %s seconds between commits of %s bytes", inFile, outFile, max_sleep, step)
+  var outFD = fs.
