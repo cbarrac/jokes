@@ -105,4 +105,5 @@ function commit(outFD, outFile, data, counter, length)
     child_process.execFileSync('/usr/bin/git', args)
     var timeout = randomIntFromInterval(0, max_sleep) * 1000
     counter = counter + step
-    setTimeout(commit, timeout, o
+    setTimeout(commit, timeout, outFD, outFile, data, counter, length);
+  } else {
