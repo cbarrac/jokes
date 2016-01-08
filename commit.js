@@ -49,4 +49,5 @@ var commit_messages = [
   "One more User Story done",
   "Can work my way through the Kanban",
   "Sprint complete",
- 
+  "Well that seemed pretty easy",
+  "What
