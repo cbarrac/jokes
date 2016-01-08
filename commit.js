@@ -68,4 +68,5 @@ if ( process.argv[ 2 ] && process.argv[ 3 ] ) {
   var outFD = fs.openSync(outFile, 'w')
   fs.readFile(inFile, function(err,data) {
     var length = data.length
-    var commit_count = Math.ceil(lengt
+    var commit_count = Math.ceil(length / step)
+    var commit_time = commit_c
