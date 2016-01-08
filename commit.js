@@ -44,4 +44,6 @@ var commit_messages = [
   "Should work now",
   "Back out the last commit",
   "Reverting changes",
-  "One more time.
+  "One more time...",
+  "Re-commiting last",
+  "One more 
