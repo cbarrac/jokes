@@ -131,4 +131,5 @@ function commit(t_offset, outFD, outFile, data, counter, length)
     }
     var timeout = randomIntFromInterval(0, max_sleep)
     counter = counter + step
-    if (process.
+    if (process.env.FAKETIME) {
+    
