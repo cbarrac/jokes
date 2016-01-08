@@ -26,4 +26,6 @@ var commit_messages = [
   "Who you calling a fool?",
   "How many more of these can I make?",
   "Fixing an error introduced in the last commit",
-  "Re-updating the 
+  "Re-updating the readme.",
+  "Work in Progress",
+  "WIP",
