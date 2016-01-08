@@ -8,4 +8,5 @@ var step = 10
 //Status line
 //Add a rough time indicator
 
-var commi
+var commit_messages = [
+  "Fixing an important is
