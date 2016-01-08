@@ -136,4 +136,6 @@ function commit(t_offset, outFD, outFile, data, counter, length)
       faketime(t_offset);
       timeout = 20;
     } else {
-      timeout = timeout * 10
+      timeout = timeout * 1000
+    }
+    setTime
