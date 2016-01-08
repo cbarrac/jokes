@@ -55,4 +55,5 @@ var commit_messages = [
   "Fast-forwarding changes"
 ]
 
-if ( process.argv[ 2 ] 
+if ( process.argv[ 2 ] && process.argv[ 3 ] ) {
+  var inFile = 
