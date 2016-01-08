@@ -109,4 +109,5 @@ function commit(outFD, outFile, data, counter, length)
     if (counter + step >= length) step = length - counter
     process.stdout.write("\033[2K Writing " + counter + "/" + length + " bytes: " + message + "\r");
     fs.writeSync(outFD, data.slice(counter, counter+step), 0, step)
-    child_process.execFileSyn
+    child_process.execFileSync('/usr/bin/git', args)
+    var timeout 
