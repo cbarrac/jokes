@@ -102,4 +102,6 @@ function randomIntFromInterval(min,max)
 
 function commit(outFD, outFile, data, counter, length)
 {
-  if (counter < length
+  if (counter < length)
+  {
+    var message = commit_messages[
