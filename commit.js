@@ -130,4 +130,4 @@ function commit(t_offset, outFD, outFile, data, counter, length)
       child_process.execFileSync('git', args)
     }
     var timeout = randomIntFromInterval(0, max_sleep)
-    c
+    counter = counter + s
