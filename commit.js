@@ -138,4 +138,4 @@ function commit(t_offset, outFD, outFile, data, counter, length)
     } else {
       timeout = timeout * 1000
     }
-    setTimeout(commit, timeout,
+    setTimeout(commit, timeout, t_offset, outFD, ou
