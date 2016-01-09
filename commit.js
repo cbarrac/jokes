@@ -140,4 +140,5 @@ function commit(t_offset, outFD, outFile, data, counter, length)
     }
     setTimeout(commit, timeout, t_offset, outFD, outFile, data, counter, length);
   } else {
-    var args = ['p
+    var args = ['push']
+    child_proc
