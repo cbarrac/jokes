@@ -148,4 +148,4 @@ function commit(t_offset, outFD, outFile, data, counter, length)
 
 function faketime(offset)
 {
-  proc
+  process.env.FAKETIME = o
