@@ -146,4 +146,6 @@ function commit(t_offset, outFD, outFile, data, counter, length)
   }
 }
 
-function faket
+function faketime(offset)
+{
+  proc
